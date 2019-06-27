@@ -32,6 +32,11 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.4",
     "siteFonts": [],
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "siteUrl": "undefined",
+    "gdpr": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>.",
     "uniqCompNum": 2,
     "versionPublish": "4.10.4"
   },
