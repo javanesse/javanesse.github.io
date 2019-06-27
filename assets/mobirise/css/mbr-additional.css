@@ -1807,11 +1807,13 @@ body {
 .cid-ruCB8VvBBf .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-ruCCxDwWnO {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #efefef;
-}
 .cid-ruCCxDwWnO P {
   color: #767676;
+}
+.cid-ruCCxDwWnO .mbr-text,
+.cid-ruCCxDwWnO .mbr-section-btn {
+  color: #ffffff;
+}
+.cid-ruCCxDwWnO H1 {
+  color: #ffffff;
 }
