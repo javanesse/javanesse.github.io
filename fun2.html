@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credits - My App</title>
+    <style>
+        :root {
+            --primary-color: #bb86fc; /* Warna ungu khas Android Dark Theme */
+            --text-secondary: #b0b0b0;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #121212; /* Hitam material design */
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .app-logo {
+            width: 80px;
+            height: 80px;
+            border-radius: 18px; /* Smooth corner ala Android */
+            margin-bottom: 15px;
+            background: #333; /* Placeholder jika gambar tidak ada */
+        }
+
+        h1 { font-size: 24px; margin: 5px 0; }
+        .version { color: var(--text-secondary); font-size: 14px; margin-bottom: 30px; }
+
+        .credit-section {
+            margin-top: 30px;
+            text-align: left;
+            width: 100%;
+        }
+
+        .credit-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #2c2c2c;
+        }
+
+        .role { color: var(--text-secondary); font-size: 14px; }
+        .name { font-weight: bold; color: var(--primary-color); }
+
+        footer {
+            margin-top: 50px;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="nangmini.gif" alt="App Logo" class="app-logo">
+        
+        <h1>Nama Aplikasi Kamu</h1>
+        <div class="version">Versi 1.0.4-stable</div>
+
+        <div class="credit-section">
+            <div class="credit-item">
+                <span class="role">Lead Developer</span>
+                <span class="name">Nama Anda</span>
+            </div>
+            <div class="credit-item">
+                <span class="role">UI/UX Designer</span>
+                <span class="name">Nama Desainer</span>
+            </div>
+            <div class="credit-item">
+                <span class="role">Special Thanks</span>
+                <span class="name">Google Fonts</span>
+            </div>
+            <div class="credit-item">
+                <span class="role">Backend</span>
+                <span class="name">Firebase</span>
+            </div>
+        </div>
+
+        <footer>
+            &copy; 2026 Nama Perusahaan/Studio Anda. <br>
+            Dibuat dengan penuh ❤️ di Indonesia.
+        </footer>
+    </div>
+
+</body>
+</html>
